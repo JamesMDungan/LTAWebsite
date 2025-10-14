@@ -3074,17 +3074,16 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-		#header:after {
+		 #header:after {
 			-moz-transition: opacity 1s ease;
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
+			/* background-image: linear-s(45deg, #4fa49a, #4361c2); */
 			content: '';
 			height: 100%;
 			left: 0;
 			opacity: 0;
-			position: absolute;
 			top: 0;
 			width: 100%;
 		}
@@ -3538,7 +3537,7 @@ section.colored a.button.primary { background: rgba(255,255,255,0.12) !important
 .button-desc { font-size: 0.95rem; line-height: 1.45; opacity: 0.95; margin-top: 0.35rem; }
 
 /* Enforce white/colored alternation across main sections */
-section.main.special:nth-of-type(odd) { background: #ffffff !important; color: inherit; }
+section.main.special:nth-of-type(odd) { background: #1c3444 !important; color: inherit; }
 section.main.special:nth-of-type(even) { background: linear-gradient(135deg, var(--lta-azure) 0%, var(--lta-azure-2) 100%) !important; color: #ffffff; }
 
 /* Officers & Leadership – mobile fixes (section id is often "three" in this template) */
